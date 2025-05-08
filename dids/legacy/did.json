@@ -7,10 +7,10 @@
     "id": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy",
     "assertionMethod": [
         {
-            "id": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy#z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q",
+            "id": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy#z6MkjXe1vZvPRqFuc9nRBtZ3e1Y9XKDFSbjFAfzLfW2bD6cZ",
             "type": "Ed25519VerificationKey2020",
             "controller": "did:web:digitalcredentials.github.io:vc-test-fixtures:dids:legacy",
-            "publicKeyMultibase": "z6MknNQD1WHLGGraFi6zcbGevuAgkVfdyCdtZnQTGWVVvR5Q"
+            "publicKeyMultibase": "z6MkjXe1vZvPRqFuc9nRBtZ3e1Y9XKDFSbjFAfzLfW2bD6cZ"
         }
     ]
 }
