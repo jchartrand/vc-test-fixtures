@@ -2,6 +2,24 @@
 
 A set of test VCs, status lists, and DIDs for testing.
 
+The structure of this repository is mostly self-explanatory. There are three main directories, one each for:
+
+- verifiable credentials
+- DIDs
+- static bitstring status lists
+
+The verifiable credentials directory is further split into subdirectories with one each for versions 1 and 2 of the verifiable credentials specification, each of which in turn have three subdirectories: one each for the two signature types ed25519-signature-2020 and data-integrity/eddsa-rdfc-2022-cryptosuite and one for vcs with both signatures. Within those directories the VCs themselves are named with following pattern:
+
+[registryType]-[status]-[expiry].json
+
+so like this example:
+
+legacy-noStatus-noExpiry.json 
+
+which means the VC was signed with a DID that is registered in one of our legacy regsitries, most likely the sandbox registry, and has neither a status nor an expiration property.
+
+
+
 ## DIDs
 
 ### did:web in legacy sandbox registry
