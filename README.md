@@ -29,7 +29,7 @@ which means the VC was signed with a DID that is registered in one of our legacy
 
 registered in:
 
-- sandbox registry
+- [DCC Sandbox Registry](https://digitalcredentials.github.io/sandbox-registry/registry.json)
 
 ### did:web in oidf test registry
 
@@ -38,7 +38,7 @@ registered in:
 
 registered in:
 
-- test.registry.dcconsortium.org
+- [DCC OIDF Test Registry](https://test.registry.dcconsortium.org/.well-known/openid-federation)
 
 ### did:key in oidf test registry and legacy sandbox registry
 
@@ -47,8 +47,10 @@ registered in:
 
 registered in:
 
-- test.registry.dcconsortium.org
-- sandbox registry
+- [DCC OIDF Test Registry](https://test.registry.dcconsortium.org/.well-known/openid-federation)
+- [DCC Sandbox Registry](https://digitalcredentials.github.io/sandbox-registry/registry.json)
+
+Used to sign test VCs whose file names start with 'mixedRegistry'
 
 ### did:key in oidf test registry
 
@@ -57,7 +59,7 @@ registered in:
 
 registered in:
 
-- test.registry.dcconsortium.org
+- [DCC OIDF Test Registry](https://test.registry.dcconsortium.org/.well-known/openid-federation)
 
 ### did:key in legacy sandbox registry
 
@@ -66,6 +68,17 @@ registered in:
 
 registered in:
 
-- sandbox registry
+- [DCC Sandbox Registry](https://digitalcredentials.github.io/sandbox-registry/registry.json)
 
-Used to sign credentials starting with `mixedRegistry'
+### did:key in four registries
+
+- seed:  not posting here because the key is used to sign VCs in trusted registries
+- did: did:key:z6MkuL7x2mTEoBmUuuaQ2hvEUd2YsEtmsHeX9JzqJZ8VYaVH
+
+registered in:
+
+- [DCC OIDF Test Registry](https://test.registry.dcconsortium.org/.well-known/openid-federation)
+- [DCC Sandbox Registry](https://digitalcredentials.github.io/sandbox-registry/registry.json)
+- [DCC Community Registry](https://github.com/digitalcredentials/community-registry/blob/main/registry.json)
+- [DCC Member Registry](https://github.com/digitalcredentials/dcc-registry/blob/main/registry.json)
+
